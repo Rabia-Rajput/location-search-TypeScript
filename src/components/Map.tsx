@@ -1,8 +1,7 @@
-
-
-export default function Map  ()  {
-  return (
-    <div>Map</div>
-  )
-};
-
+import Place from "../api/Place";
+interface MapProps {
+  place: Place | null;
+}
+export default function Map({ place }: MapProps) {
+  return <div>Map!!</div>;
+}
